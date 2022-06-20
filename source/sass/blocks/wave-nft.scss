@@ -1,0 +1,90 @@
+.wave-nft {
+  margin-right: 106px;
+  margin-bottom: 120px;
+
+  &__wrapper {
+
+    display: grid;
+    grid-template-columns: 360px 580px;
+    grid-column-gap: 160px;
+  }
+
+  &__title {
+    padding-bottom: 40px;
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height, or 120% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    &--gray {
+
+
+      color: #A8A8A8;
+    }
+  }
+
+
+
+  &__text {
+
+
+
+
+    &--top {
+
+      border-left: solid 2px #8DFD1B;
+
+      margin-bottom: 32px;
+      padding-left: 22px;
+
+      font-family: 'DM Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 32px;
+      /* or 152% */
+
+
+      color: #8DFD1B;
+    }
+
+    &--descr {
+      margin-bottom: 30px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 160% */
+
+
+      color: #FFFFFF;
+    }
+  }
+
+  &__btn {
+    width: 246px;
+    height: 42px;
+
+    border: solid 2px #8DFD1B;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+  }
+}

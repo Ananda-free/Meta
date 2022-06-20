@@ -1,0 +1,103 @@
+.team-wrapper {
+  margin-bottom: 236px;
+}
+
+.team-slide {
+
+  margin-bottom: 120px;
+
+  width: 350px;
+
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+  /* identical to box height, or 111% */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 100px;
+
+
+
+  &__wrapper {
+    width: 320px;
+    height: 552px;
+  }
+
+  &__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+
+  }
+
+  &__name {
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    /* identical to box height, or 132% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  &__job-title {
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    /* identical to box height, or 109% */
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #8DFD1B;
+  }
+
+  &__social-btn {
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+  }
+
+  &__descr {
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+}
+
+.social-btn__wrapper {
+
+  display: flex;
+  grid-gap: 12px;
+}

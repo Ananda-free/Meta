@@ -1,0 +1,150 @@
+.story {
+
+
+  margin-bottom: 120px;
+  &__title {
+    margin-bottom: 60px;
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    &--gray {
+
+      color: #A8A8A8;
+    }
+
+  }
+}
+
+
+
+
+
+
+.tabs {
+
+  display: grid;
+  grid-template-columns: 282px 878px;
+
+  margin-bottom: 120px;
+
+
+  &-triggers__item-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 28px;
+
+    width: 282px;
+    height: 72px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    color: #8DFD1B;
+
+    &.active {
+      background: #222222;
+    }
+
+    }
+}
+
+.tab-content__item {
+  display: none;
+
+  &.active {
+
+    display: block;
+  }
+}
+
+.tab-content {
+
+  &__wrapper {
+  display: grid;
+  grid-template-columns: 172px 546px;
+  grid-column-gap: 40px;
+  padding: 60px;
+  background-color: #222222;
+  }
+
+  &__descr {
+    position: relative;
+  }
+
+  &__header {
+
+
+    padding-left: 22px;
+    padding-bottom: 32px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #8DFD1B;
+
+    &::before {
+      content: "";
+      position: absolute;
+      border-left: 2px #8DFD1B solid;
+      height: 93px;
+      left: 0;
+    }
+  }
+
+  &__text {
+    padding-bottom: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 160% */
+
+
+    color: #FFFFFF;
+  }
+}
+
+.story-img__wrapper {
+  margin-bottom: 120px;
+
+  width: 1440px;
+  height: 240px;
+
+}
+
+.item-line {
+  position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 40px;
+      background-color:#8DFD1B;
+
+      bottom: -110px;
+      left: 50%;
+  }
+}

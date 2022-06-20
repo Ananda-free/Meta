@@ -1,0 +1,61 @@
+.header {
+
+  display: flex;
+  padding-top: 50px;
+
+  &-inner {
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  &-nav {
+
+    &__list {
+      display: flex;
+      grid-gap: 20px;
+
+      padding-top: 7px;
+
+      margin-left: 40px;
+
+      font-family: 'DM Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      /* identical to box height, or 100% */
+
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+.social{
+
+  &__list {
+
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 20px;
+
+  }
+
+  &__item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+
+    width: 36px;
+    height: 36px;
+  }
+}
+
+
+
